@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">Intermediate Android Development - Hello World</string>
     <string name="Jorge_Intro">Hello World! My name is Jorge and im a product owner fascinated by all that is possible by using code.</string>
-    <string name="say_hello_button">Say Hello!</string>
+    <string name="say_hello_button">Now its your turn!</string>
 </resources>
