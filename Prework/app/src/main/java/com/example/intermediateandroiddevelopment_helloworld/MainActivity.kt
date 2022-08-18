@@ -13,10 +13,11 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        val helloButton = findViewById<Button>(R.id.Hello_Button)
+        val helloButton = findViewById<Button>(R.id.YourTurn_Button)
         helloButton.setOnClickListener {
             Log.v("Hello world", "Button clicked!")
-            Toast.makeText(this, "Hello, can you tell me something about you?!", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Hello, what are you like?", Toast.LENGTH_SHORT)
+                .show()
         }
 
         val universityButton = findViewById<Button>(R.id.University_button)
@@ -30,16 +31,22 @@ class MainActivity : AppCompatActivity() {
         val interestButton = findViewById<Button>(R.id.Interest_Button)
         interestButton.setOnClickListener {
             Log.v("Interest_Button", "Interest Button Clicked!")
-            findViewById<ImageView>(R.id.Main_Image).setImageResource(R.drawable.aeronautical_engineering)
+            findViewById<ImageView>(R.id.Main_Image).setImageResource(R.drawable.youtubeicon)
             findViewById<TextView>(R.id.textView).text =
-                "I enjoy learning about aeronautical engineering and dream of getting my pilots license one day."
+                "I enjoy watching Youtube videos about engineering, history and cooking. I also love to code! "
         }
         val aboutme_Button = findViewById<Button>(R.id.AboutMe_Button)
         aboutme_Button.setOnClickListener {
             Log.v("Interest_Button", "AboutMe Button Clicked!")
             findViewById<ImageView>(R.id.Main_Image).setImageResource(R.drawable.jmd_portrait)
-            findViewById<TextView>(R.id.textView).text = "Hello World! My name is Jorge and im a product owner fascinated by all that is possible by using code."
-
+            findViewById<TextView>(R.id.textView).text =
+                "Hello World! My name is Jorge and im a product owner fascinated by all that is possible by using code."
+        }
+        val home_Button = findViewById<Button>(R.id.home_Button)
+        home_Button.setOnClickListener {
+            Log.v("home_Button", "home Button Clicked!")
+            findViewById<ImageView>(R.id.Main_Image).setImageResource(R.drawable.welcome)
+            findViewById<TextView>(R.id.textView).text = "Welcome to my app!"
 
         }
     }
