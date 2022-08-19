@@ -33,8 +33,8 @@ GIF created with [RecordIt](https://recordit.co/).
 
 ## Notes
 
-There are 2 functionallities I wanted to add but was unable to impleemn. These include
-vertical scrolling and animations when the switching betwen image. I will continue 
+There are 2 functionallities I wanted to add but was unable to implement. These include
+vertical scrolling and animations when the switching between images. I will continue 
 to explore ways to implement these features. 
 
 ## License
