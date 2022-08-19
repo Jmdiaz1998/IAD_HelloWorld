@@ -18,6 +18,8 @@ class MainActivity : AppCompatActivity() {
             Log.v("Hello world", "Button clicked!")
             Toast.makeText(this, "Hello, what are you like?", Toast.LENGTH_SHORT)
                 .show()
+            findViewById<ImageView>(R.id.Main_Image).setImageResource(R.drawable.pointingatyou)
+            findViewById<TextView>(R.id.textView).text =""
         }
 
         val universityButton = findViewById<Button>(R.id.University_button)
