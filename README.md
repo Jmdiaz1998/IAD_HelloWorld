@@ -33,7 +33,10 @@ GIF created with [RecordIt](https://recordit.co/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+There are 2 functionallities I wanted to add but was unable to impleemnt:
+
+Vertical scrolling, animations when the switching betwen image. I will continue 
+to explore ways to implement these features. 
 
 ## License
 
