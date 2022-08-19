@@ -2,9 +2,9 @@
 
 Submitted by: **Jorge Miguel Diaz**
 
-**Hell World, From Jorge** is an android app that shows an image and introductory message, and allows pressing a button to display a Toast. 
+**Hell World, From Jorge** is an android app that shows my image alongside other information about myself. 
 
-Time spent: **4** hours spent in total
+Time spent: **6** hours spent in total
 
 ## Required Features
 
@@ -16,20 +16,20 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-* [ ] List anything else that you can get done to improve the app functionality!
+* [X] Added a welcome page as the home page.
+* [X] Added a button to reset the view
+* [X] Added a button which displays an image of my university alongside my educational background.
+* [X] Added a button which displays an image of Youtube alongside information on my interests.  
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src="http://g.recordit.co/89Os2GBFps.gif" width=200><br>
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with [LiceCap](http://www.cockos.com/licecap/).  
-<!-- Other options include:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+GIF created with [RecordIt](https://recordit.co/).  
+
 
 ## Notes
 
@@ -37,7 +37,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2022] [Jorge M. Diaz]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
