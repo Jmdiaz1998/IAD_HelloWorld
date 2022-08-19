@@ -36,8 +36,8 @@
 
     <Button
         android:id="@+id/YourTurn_Button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
         android:text="@string/say_hello_button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -48,8 +48,8 @@
 
     <Button
         android:id="@+id/Interest_Button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
         android:layout_marginBottom="56dp"
         android:text="Interest"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -60,8 +60,8 @@
 
     <Button
         android:id="@+id/University_button"
-        android:layout_width="wrap_content"
-        android:layout_height="48dp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
         android:text="University"
         app:layout_constraintBottom_toTopOf="@+id/Interest_Button"
         app:layout_constraintEnd_toEndOf="@+id/Interest_Button"
@@ -71,8 +71,8 @@
 
     <Button
         android:id="@+id/AboutMe_Button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
         android:layout_marginTop="-20dp"
         android:text="About me"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -84,11 +84,18 @@
     <Button
         android:id="@+id/home_Button"
         android:layout_width="80dp"
-        android:layout_height="48dp"
+        android:layout_height="50dp"
         android:text="Home "
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.448"
         app:layout_constraintStart_toEndOf="@+id/YourTurn_Button"
         app:layout_constraintTop_toTopOf="@+id/YourTurn_Button" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
